@@ -45,7 +45,7 @@ Example Inputs and Expected Results:
 1. Sentiment Analysis Cases
 This will determine whether the text is Positive, Negative, or Neutral.
 
-| Input                                | Expected Sentiment Output |
+|                  Input               | Expected Sentiment Output |
 |--------------------------------------|---------------------------|
 | "I love this product! It's amazing." |         Positive          |
 | "This is the worst experience ever." |         Negative          |
@@ -72,14 +72,14 @@ This will remove special characters and lowercase text.
 4. Mixed Case (Sentiment + NER + Cleaning)
 This will test all functionalities together.
 
-|                            Input                         |                                             Expected Output                                           |
+|                         Input                            |                                             Expected Output                                           |
 |------------------------------------------------------    |-------------------------------------------------------------------------------------------------------|
 | "Microsoft announced Windows 11 on June 24, 2021."       | - Entities: Microsoft (ORG), Windows 11 (PRODUCT), June 24, 2021 (DATE) <br> 
-                                                             - Sentiment: Neutral <br> 
-                                                             - Cleaned Text: "microsoft announced windows 11 on june 24 2021" |
+                                                           | - Sentiment: Neutral <br> 
+                                                           | - Cleaned Text: "microsoft announced windows 11 on june 24 2021" |
 | "I hate slow internet, but Google Fiber is really fast!" | - Entities: Google Fiber (ORG) <br> 
-                                                             - Sentiment: Positive <br>
-                                                             - Cleaned Text: "i hate slow internet but google fiber is really fast" |
+                                                           | - Sentiment: Positive <br>
+                                                           | - Cleaned Text: "i hate slow internet but google fiber is really fast" |
 
 How to Use These Cases in Your App
 1. Open the app in your browser (http://127.0.0.1:5000/).
