@@ -81,6 +81,7 @@ This will test all functionalities together.
                                                            | - Sentiment: Positive <br>
                                                            | - Cleaned Text: "i hate slow internet but google fiber is really fast" |
 
+
 How to Use These Cases in Your App
 1. Open the app in your browser (http://127.0.0.1:5000/).
 2. Enter one of the test cases above in the text box.
